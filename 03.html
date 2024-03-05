@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a.links:hover{
+            text-decoration: underline!important;
+            color:#25b7bc !important;
+        }
+        img.logo:hover{
+            height: 120px;
+            width: auto;
+        }
+
+        .botao-icone{
+            height: 20px;
+            width: 20px;
+            margin-top: 5px;
+        }
+
+        #botao{
+            width: 50px;
+            height: 50px;
+            right: 40px;
+            bottom: 40px;
+        }
+    </style>
+</head>
+<body class="p-3" style="background-color: #f5f5f5;">
+    <div id="botao" class="fixed-bottom ml-auto d-flex">
+        <a href="./02.html" class="btn btn-success btn-lg">Ant.</a>
+        <a href="./01.html" class="btn btn-success btn-lg">Prox.</a>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center p-3">
+        <div class="col-3">
+            
+            <a href="https://ssp.ba.gov.br/" class="" target="_blank">
+                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/logo_governo-1.png">
+            </a>
+            
+        </div>
+
+        <div class="col-8 text-center">
+            <h2 class="wp-block-heading" style="font-size:2rem;">SECRETARIA DA SEGURANÇA PÚBLICA DA BAHIA</h2>
+        </div>
+    
+        <div class="col-1 d-flex justify-content-between" >
+            <div>
+                <a href="https://www.facebook.com/bahiassp" target="_blank">
+                    <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/facebook.png" >
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/bahiassp/" target="_blank">
+                    <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/instagram.png" >
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/bahiassp" target="_blank">
+                    <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/twitter.png" >
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/user/ascomsspba" target="_blank">
+                    <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/youtube.png" >
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <nav class="main-header navbar navbar-expand navbar-dark d-flex justify-content-center " style="background-color: #25b7bc; font-weight: 600;">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link " data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a></li>
+                <li class="nav-item d-sm-inline-block "><a href="" class="nav-link">HOME</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">COGER</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">OUVIDORIA</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">SGTO</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">SI</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">SIAP</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">SPREV</a></li>
+                <li class="nav-item d-sm-inline-block "><a class="nav-link" href="#">STELECOM</a></li>
+            </ul>
+        </nav>
+    
+        <aside class="col-1 border p-3">
+            <div class="p-2">
+                <div id="iconCarousel" class=" d-flex flex-column justify-content-between align-items-center" data-ride="carousel">
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/email.png" alt="" width="90px" class="logo"></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/sei.png" alt="" width="100px" height="100px" class="logo"></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/rhbahia.png" alt="" height="auto" class="logo" ></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/dool.png" alt="" width="100px" height="100px" class="logo" ></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/comprasnet.png" alt="" width="100px" height="100px" class="logo" ></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/repositorio-processos.png" alt="" width="100px" height="100px" class="logo" ></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Rede-Colaborativa.png" alt="" width="100px" height="100px" class="logo" ></a>
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Biblioteca-Virtual.png" alt="" width="100px" height="100px" class="logo" ></a>
+                </div>
+            </div>
+        </aside>
+        <section class="col-9 ">
+    
+            <div class="d-flex justify-content-center">
+                <h1 style="color: blue; font-weight: 900;"><em>Fique <span class="text-danger">por</span> dentro!</em></h1>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item  active" style="height: 500px;">
+                        <div class="d-flex justify-content-center row" style="border-radius: 100px; width: 100%; ">
+                            <div class="col-5 p-0" >
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-20-at-10.21.01.jpeg" style="width: 100%; ">
+                            </div>
+                            <div class="col-5 p-3" style="background-color: #CDE1F4;">   
+                                <div class="d-flex" style="border-radius: 25px; background-color: #fff;">
+
+                                    <div class="" style="border-radius: 50px; width: 50px;">
+                                        <img  src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/policia-categoria-icon.png" alt="">
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <h3 style="font-weight: 600;" class="text-uppercase">super destaque</h3>
+                                    </div>
+
+                                </div>
+                                <div class="mt-5">
+                                    <a class="links" href="https://ssp.ba.gov.br/2023/11/20/celebracao-do-titulo-nacional-do-vitoria-termina-sem-registro-de-crimes-graves-e-com-celular-recuperado/" style=" color: #000;">
+                                        <h3 style="font-weight: 600;">Celebração do título nacional do Vitória termina sem registro de crimes graves e com celular recuperado</h3>
+                                    </a>
+                                    <br>
+                                    <p class="mt-2">Aparelho telefônico foi recuperado instantes depois, com o apoio de guarnição que patrulhava o evento. </p>
+                                </div>
+
+                                <div  class="mt-3 d-flex justify-content-between">
+                                    <p><img src="/assets/imgs/icones/camera-mini.png" width="20px" height="20px"> Foto: Ascom/PC</p>
+                                    <a class="links" href="https://ssp.ba.gov.br/2023/11/20/celebracao-do-titulo-nacional-do-vitoria-termina-sem-registro-de-crimes-graves-e-com-celular-recuperado/">
+                                        saiba mais 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="border-radius: 20px; height: 500px;">
+                        <div class="d-flex justify-content-center row" style="border-radius: 100px; width: 100%; ">
+                            <div class="col-5 p-0 " >
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/1-9-scaled.jpeg" style="width: 100%; height: 100%;">
+                            </div>
+                            <div class="col-5 p-3" style="background-color: #CDE1F4;">   
+                                <div class="d-flex" style="border-radius: 25px; background-color: #fff;">
+
+                                    <div class="" style="border-radius: 50px; width: 50px;">
+                                        <img  src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/policia-categoria-icon.png" alt="">
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <h3 style="font-weight: 600;" class="text-uppercase">super destaque</h3>
+                                    </div>
+
+                                </div>
+                                <div class="mt-3">
+                                    <a class="links" href="https://ssp.ba.gov.br/2023/11/20/festival-bahia-beer-e-finalizado-sem-crimes-violentos-na-cidade-de-alagoinhas/" style=" color: #000;">
+                                        <h3 style="font-weight: 600;">Festival Bahia Beer é finalizado sem crimes violentos na cidade de Alagoinhas</h3>
+                                    </a>
+                                    <br>
+                                    <p class="mt-2">Durante os três dias de celebração, o evento contou com o apoio do Sistema de Reconhecimento Facial da SSP e atuação das Forças de Segurança.... </p>
+                                </div>
+
+                                <div  class="mt-5 d-flex justify-content-between">
+                                    <p><img src="/assets/imgs/icones/camera-mini.png" width="20px" height="20px">
+                                    Foto: Divulgação SSP</p>
+                                    <a class="links " style="font-weight: 600; color: #034991;" href="https://ssp.ba.gov.br/2023/11/20/celebracao-do-titulo-nacional-do-vitoria-termina-sem-registro-de-crimes-graves-e-com-celular-recuperado/">
+                                        saiba mais <img src="assets/imgs/icones/arrow-right.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" style="border-radius: 20px; height: 500px;">
+                        <div class="d-flex justify-content-center row" style="border-radius: 100px; width: 100%; ">
+                            <div class="col-5 p-0 " >
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-20-at-09.40.49-1-edited.jpeg" style="width: 100%">
+                            </div>
+                            <div class="col-5 p-3" style="background-color: #CDE1F4;">   
+                                <div class="d-flex" style="border-radius: 25px; background-color: #fff;">
+
+                                    <div class="" style="border-radius: 50px; width: 50px;">
+                                        <img  src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/policia-categoria-icon.png" alt="">
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <h3 style="font-weight: 600;" class="text-uppercase">super destaque</h3>
+                                    </div>
+
+                                </div>
+                                <div class="mt-3">
+                                    <a class="links" href="https://ssp.ba.gov.br/2023/11/20/homicida-e-preso-em-boa-vista-do-tupim-24-horas-apos-o-crime/" style=" color: #000;" class="links">
+                                        <h3 style="font-weight: 600;">Homicida é preso pela Cipe Chapada em Boa Vista do Tupim 24 horas após o crime</h3>
+                                    </a>
+                                    <br>
+                                    <p class="mt-2">Os pms localizaram o suspeito durante incursões em matagal</p>
+                                </div>
+
+                                <div  class="mt-5 d-flex justify-content-between">
+                                    <p><img src="/assets/imgs/icones/camera-mini.png" width="20px" height="20px">
+                                    Foto: Ascom/PC</p>
+                                    <a class="links " style="font-weight: 600; color: #034991;" href="https://ssp.ba.gov.br/2023/11/20/celebracao-do-titulo-nacional-do-vitoria-termina-sem-registro-de-crimes-graves-e-com-celular-recuperado/">
+                                        saiba mais <img src="assets/imgs/icones/arrow-right.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #c55959;"></span> -->
+                    <span style="color: #000;"> < </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #c55959;"></span> -->
+                    <span style="color: #000;">></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="row d-flex p-5 justify-content-between mt-2">
+
+                <div class="col-3" style=" overflow: hidden;">
+                    <div style="max-width: 100%;">
+                        <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/1700408271Foto_02.jpeg" alt="" 
+                        style="height: 280px; width: 100%; 
+                        display: block; 
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;">
+                    </div>
+                    <div class="p-3"  style="background-color: #fff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                        <div class="mt-3 mb-3">
+                            
+                        </div>
+                        <div class="mt-2">
+                            <h4><a href="">Pedro Mello emitirá 1500 RGs gratuitos durante duas semanas</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3" style=" overflow: hidden;">
+                    <div style="max-width: 100%;">
+                        <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-20-at-06.21.38-1-edited.jpeg" alt="" style="height: 280px; width: 100%; display: block; border-top-left-radius: 10px;
+                        border-top-right-radius: 20px;">
+                    </div>
+                    <div class="p-3"  style="background-color: #fff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                        <div class="mt-3 mb-3">
+                            
+                        </div>
+                        <div class="mt-2">
+                            <h4><a href="">PM apreende arma, munições e droga em Xique-Xique </a></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-3" style=" overflow: hidden;">
+                    <div style="max-width: 100%;">
+                        <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/2F85D788-B7C1-4AFF-9F70-89591CDCAEE6.jpeg" alt="" style="height: 280px; width: 100%; display: block; border-top-left-radius: 10px;
+                        border-top-right-radius: 20px;">
+                    </div>
+                    <div class="p-3"  style="background-color: #fff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                        <div class="mt-3 mb-3">
+                            
+                        </div>
+                        <div class="mt-2">
+                            <h4><a href="https://ssp.ba.gov.br/2023/11/20/coordenadoria-regional-de-policia-tecnica-de-itabuna-realiza-exposicao-sobre-pericia-criminal/">Coordenadoria Regional de Polícia Técnica de Itabuna realiza exposição </a></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-3" style=" overflow: hidden;">
+                    <div style="max-width: 100%;">
+                        <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/11/C2B237BF-035C-4940-9047-AE6A5A95C671.jpeg" alt="" style="height: 280px; width: 100%; display: block; border-top-left-radius: 10px;
+                        border-top-right-radius: 20px;">
+                    </div>
+                    <div class="p-3"  style="background-color: #fff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+                        <div class="mt-3 mb-3">
+                            
+                        </div>
+                        <div class="mt-2">
+                            <h4><a href="https://ssp.ba.gov.br/2023/11/20/coordenadoria-regional-de-policia-tecnica-de-itabuna-realiza-exposicao-sobre-pericia-criminal/">Coordenadoria Regional de Polícia Técnica de Itabuna realiza exposição </a></h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+            <hr>
+            <div class="container">
+                <div class="d-flex justify-content-between" >
+                    <div class="col-3 d-flex align-items-center " style="width: 23%; border-radius: 10px; color: #fff; background-color: #25b7bc;  border: 1px solid #23a1a5;">
+                        <button type="button" class="btn p-3" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="  background-color: #25b7bc;">
+                            <img src="assets/imgs/icones/destaque.png" alt=""> 
+                            <span> Destaque</span>
+                        </button>
+                    </div>
+                    <div class="col-3  d-flex align-items-center " style="width: 23%; border-radius: 10px; color: #fff; background-color: #25b7bc; border: 1px solid #23a1a5;">
+                        <button type="button" class="btn p-3" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="  background-color: #25b7bc;">
+                            <img src="assets/imgs/icones/aniversario.png" alt="">  
+                            <span>Aniversariantes do Dia</span>
+                        </button>
+        
+                    </div>
+                    <div class="col-3  d-flex align-items-center" style="width: 23%; border-radius: 10px; color: #fff; background-color: #25b7bc; border: 1px solid #23a1a5;">
+                        <button type="button" class="btn p-3" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="  background-color: #25b7bc;">
+                            <img src="assets/imgs/icones/ramal.png" alt="">  
+                            <span>Ramais SSP</span>
+                        </button>
+        
+                    </div>
+                    <div class="col-3  d-flex align-items-center" style="width: 23%; border-radius: 10px; color: #fff; background-color: #25b7bc; border: 1px solid #23a1a5;">
+                        <button type="button" class="btn p-3" data-bs-toggle="modal" data-bs-target="#exampleModal3" style=" background-color: #25b7bc;">
+                            <img src="assets/imgs/icones/lamp.png" alt=""> 
+                            <span>Dicas Úteis</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <br>
+                <div class="d-flex justify-content-between mb-3" >
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #68be63;"><a href=""><span>Saúde e Bem estar</span></a></div>
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #7cd3f6;"><a href=""><span>Servidor</span></a></div>
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #dd9b55;"><a href=""><span>Esporte</span></a></div>
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #f6f076;"><a href=""><span>Cultura</span></a></div>
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #f172a6;"><a href=""><span>Entretenimento</span></a></div>
+                    <div class="col-2 p-3 text-center" style="font-weight: 600; width: 15%; font-size: 11pt; border-radius: 5px; background-color: #8177b3;"><a href=""><span>Beleza</span></a></div>
+                </div>
+                <br>
+            </div>
+            <hr>
+            <div class="container d-flex justify-content-between">
+                <div class="p-3">
+                    <div class="d-flex align-items-center">
+                        <div class="p-2">
+                            <img decoding="async" loading="lazy" src="https://ssp.ba.gov.br/wp-content/uploads/2023/04/estado-da-Bahia.png" alt="" width="80px" height="auto">
+                        </div>
+                        <div class="wp-block-media-text__content">
+                            <p style="">SSP<br>Secretaria da Segurança Pública</p>
+                        </div>
+                    </div>
+                    <div class="mt-2 " style="font-family: monospace; font-size: 10pt;">
+                        <p class=" ">
+                            4ª Avenida, nº 430, Centro Administrativo da Bahia <br>
+                            CEP 41.745-002 - Salvador - Bahia - Localização<br>
+                            (71) 3115-1800 / 3115-1807<br>
+                            Exerça sua cidadania. Fale com a <a href="http://www.ouvidoriageral.ba.gov.br" target="_blank" rel="noreferrer noopener">ouvidoria</a>
+                        </p>
+                    </div>
+                </div>
+                <div style="width: 300px;" class="  " >
+                    <div class="d-flex justify-content-center">
+                        <p style="font-weight: 600; font-size: 10pt;">
+                            SIGA-NOS NAS REDES SOCIAIS
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between" >
+                        <div>
+                            <a href="https://www.facebook.com/bahiassp" target="_blank">
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/facebook.png" >
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/bahiassp/" target="_blank">
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/instagram.png" >
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/bahiassp" target="_blank">
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/twitter.png" >
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/user/ascomsspba" target="_blank">
+                                <img src="https://ssp.ba.gov.br/wp-content/uploads/2023/01/youtube.png" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="col-2 border p-3">
+            <div>
+                <div id="carouselExampleIndicatorsTeste" class="carousel slide" data-bs-ride="carousel" >
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicatorsTeste" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicatorsTeste" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicatorsTeste" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" >
+                        <div class="carousel-item h-100 active" >
+                            <div class="d-flex justify-content-center ">
+                                <a href="pages/sprev/docs/relacao_dos_inscritos_selo_SPREV_2023.pdf" target="_blank">
+                                    <img alt="" src="http://comunicacaointerna.sspba.intranet/intranet_ssp/images/sprev/selo_sprev.jpg"  height="350px" width="auto">
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="carousel-item  h-100 " style="height: 500px;">
+                            <div class="d-flex justify-content-center ">
+                                <a href="">
+                                    <img src="assets/imgs/planesp2.jpg" alt="" title="PLANESP"  height="350px" width="auto"  >
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item  h-100 "  style=" height: 500px;">
+                            <div class="d-flex justify-content-center ">
+                                <a style="width: 100%" href="http://www.transparencia.ba.gov.br/" target="_blank">
+                                    <img src="http://comunicacaointerna.sspba.intranet/intranet_ssp/images/transparencia.jpeg" height="350px" width="auto">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicatorsTeste" data-bs-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTeste" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="d-inline-block">
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Sistema-SIGO-VF.png" alt="" width="80px" height="100px" class="logo" ></a>
+                </div>
+                <div class="d-inline-block">
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Sistema-GESCONT-VF.png" alt="" width="80px" height="100px" class="logo" ></a>    
+                </div>
+                <div class="d-inline-block">
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Sistema-SIGEST.png" alt="" width="80px" height="100px" class="logo" ></a>    
+                </div>
+                <div class="d-inline-block">
+                    <a href="" class="mt-2 mb-2"><img src="assets/imgs/icones/Publicacoes.png" alt="" class="logo" width="80px"></a>
+                </div>
+
+            </div>
+        </aside>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModal2Label">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    2
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModal2Label">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    3
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="background-color: #25b7bc;">
+        <div class="p-3 text-light" >
+            <span class="p-1" style="font-weight: 600; background-color: rgb(8, 8, 143); font-size: 9pt;">
+                Copyrigth &copy; APG - SSP - Login - Telefones para contato - APG: 3115-1816, ASCOM: 3115-1866/1808 2748 acessos hoje.
+            </span>
+        </div>
+    </footer>
+    <!-- <script src="assets/bootstrap/js/popper.js"></script> -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
